@@ -1,6 +1,6 @@
 terraform {
    backend "s3" {
-     bucket = "udacity-terraform-codes"
+     bucket = "udacity-terraform-name-code"
      key    = "terraform/terraform.tfstate"
      region = "us-east-2"
    }
