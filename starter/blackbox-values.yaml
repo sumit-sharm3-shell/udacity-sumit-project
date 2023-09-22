@@ -116,7 +116,7 @@ config:
           - 200
         #         # - 401
         #         # - 403
-        bearer_token: "RV4HMGON0GEOMMXDGWXVGQ0EYJFZRMNEGIV3BVJRH4HPSHXX2R"
+        bearer_token: "R7JYGX30AQ8LGO2KOGUYZQ4PM3QE488HCATJXPTNWS6LSSHYYJ"
 # Set custom config path, other than default /config/blackbox.yaml. If let empty, path will be "/config/blackbox.yaml"
 # configPath: "/foo/bar"
 
@@ -266,7 +266,7 @@ scrape_configs:
       module: [http_2xx] # Look for a HTTP 200 response.
     static_configs:
       - targets:
-          - http://3.208.73.111
+          - http://18.207.96.163
     relabel_configs:
       - source_labels: [__address__]
         target_label: __param_target
